@@ -1,10 +1,14 @@
 package Acme::CPANModules::ArrayClassBuilder;
 
+use strict;
+
+# AUTHORITY
 # DATE
+# DIST
 # VERSION
 
 our $LIST = {
-    summary => 'Class builders for array-backed classes',
+    summary => 'List of class builders for array-backed classes',
     description => <<'_',
 
 This list catalogs class builders for classes that use array (instead of the
